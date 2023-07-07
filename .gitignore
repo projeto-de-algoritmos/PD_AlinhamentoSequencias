@@ -9,7 +9,7 @@
 /coverage
 
 # production
-/build
+/alinhamento_sequencias/build
 
 # misc
 .DS_Store
