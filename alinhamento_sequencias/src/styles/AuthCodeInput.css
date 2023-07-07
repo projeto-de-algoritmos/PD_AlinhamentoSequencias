@@ -1,0 +1,23 @@
+.auth-code-input {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .auth-code-input input {
+    background-color: #E7F5FF;
+    border-radius: 8px;
+    color: #326ACB;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+  }
+  
+  .auth-code-input input:focus {
+    background-color: #D2E6FD;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  }
+  
