@@ -42,5 +42,8 @@
       "last 1 safari version"
     ],
     "homepage": "http://projeto-de-algoritmos.github.io/AlinhamentoSequencias"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
