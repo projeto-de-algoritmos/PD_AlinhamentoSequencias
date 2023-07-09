@@ -42,7 +42,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "http://projeto-de-algoritmos.github.io/AlinhamentoSequencias"
+    "homepage": "http://projeto-de-algoritmos.github.io/PD_AlinhamentoSequencias"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
