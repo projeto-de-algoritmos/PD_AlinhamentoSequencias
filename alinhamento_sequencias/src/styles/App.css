@@ -37,3 +37,22 @@
   color: #326ACB;
   margin-left: 10px;
 }
+
+@media (max-width: 600px) {
+  .code{
+    flex-direction: column;
+  }
+
+  .result{
+    width: 250px;
+    height: 250px;
+  }
+
+  .result > p{
+    font-size: 13px;
+  }
+
+  .title{
+    font-size: 1.8em;
+  }
+}

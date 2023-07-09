@@ -1,7 +1,9 @@
 .auth-code-input {
     display: flex;
     gap: 10px;
-  }
+    width: 95%;
+    max-width: 800px;
+}
   
   .auth-code-input input {
     background-color: #E7F5FF;
@@ -21,3 +23,26 @@
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
   }
   
+@media (max-width: 600px) {
+  .auth-code-input{
+    gap: 3px;
+  }
+  .auth-code-input input{
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .auth-code-input{
+    gap: 1px;
+  }
+  .auth-code-input input{
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+  }
+}
