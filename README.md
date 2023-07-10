@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Alinhamento de Sequências
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Número da Lista**: 11
+**Conteúdo da Disciplina**: Programação Dinâmica
 
-## Available Scripts
+## Alunos
+|Matrícula | Aluno |
+| -- | -- |
+| 20/0026488  |  Rafael de Medeiros Nobre |
 
-In the project directory, you can run:
+## Sobre 
+O projeto a seguir é uma interface interativa que demonstra o algoritmo de alinhamento de sequências. Ela recebe dois textos de input e calcula o número de matches, mismatches e gaps, utilizando programação dinâmica.
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![](./assets/1.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![](./assets/2.png)
 
-### `npm test`
+![](./assets/3.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Apresentação
 
-### `npm run build`
+A apresentação pode ser encontrada no arquivo assets/apresentacao.mp4
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instalação 
+**Linguagem**: Javascript
+**Framework**: React.js<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para executar o projeto, é necessário ter o Node.js a partir da versão 16.0 instalado na máquina. clone o repositório e execute os passos:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Passo 1**
+```
+cd alinhamento_sequencias
+```
 
-### `npm run eject`
+**Passo 2**
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Uso 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto pode ser acessado pelo [LINK](https://projeto-de-algoritmos.github.io/PD_AlinhamentoSequencias/), ou pode ser executado localmente seguindo o passo a passo abaixo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Para executar o projeto, execute o código:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm start
+```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+E abra o endereço http://localhost:3000
